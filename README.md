@@ -18,6 +18,6 @@ HTML, CSS, JavaScript, PHP, SQL
 
 ## Screenshots
 
-![App Screenshot](https://ibb.co/Qj30ydS)
-![App Screenshot](https://ibb.co/7QR2LNL)
-![App Screenshot](https://ibb.co/S6jGFjV)
+![App Screenshot](https://i.ibb.co/1JtcF6y/asdasd.png)
+![App Screenshot](https://i.ibb.co/ScdRG7G/asd-Untitled.png)
+![App Screenshot](https://i.ibb.co/YNCwHCf/Untitled.png)
