@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_index.css">
+    <title>Logged in</title>
+</head>
+<body style="background-image: url('imgs/bg_prijava.png');" onload="startTime()">  
+
+    <div class="header">
+        <button id="back">
+            <img src="imgs/back.png" alt="" class="btn_img">
+        </button>
+        <!-- <label id="welcome">Pozdrav, <?php echo $user_data['firstName'] ?>!</label> -->
+        <img id="kset" src="imgs/kset_orangeLogo.png" alt="">
+        <!-- <label id="time"></label> -->
+        <button id="logout">
+            <img src="imgs/logout.png" alt="" class="btn_img">
+        </button>
+    </div>
+
+    <!-- <a href="logout.php">Logout</a> -->
+    <br>
+    
+    <!-- <div class="title">
+        <h1>Bok, <span style="color: rgba(255,140,0,1);"><?php echo $user_data['firstName'] ?></span></h1>
+        <h2>sekcija: <span style="color: rgba(255,140,0,1);">Disco</span></h2>
+    </div> -->
+
+    <div id="title">
+        <div id="left">
+          <span>
+            Bok, <span style="color: rgba(255,140,0,1);"><?php echo $user_data['firstName'] ?>Luka</span>
+          </span>
+        </div>
+        <div id="right">
+          <span>
+            sekcija: <span style="color: rgba(255,140,0,1);"><?php echo $user_data['section'] ?>Disco</span>
+          </span>
+        </div>
+      </div>
+    <br>
+    <!-- Hello, <?php echo $user_data['firstName'] ?> -->
+
+    <div class="footer">
+        <label id="time"></label>
+    </div>
+    <script src="js/script_index.js"></script>
+</body>
+</html>
