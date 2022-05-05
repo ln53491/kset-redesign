@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="css/style_prijava.css">
+    <title>KSET - prijava</title>
+</head>
+<body style="background-image: url('imgs/bg_prijava.png');">
+    <div class="container_login" id="container_login">
+        <h1>Prijavi se</h1>
+        <form>
+            <div class="form-control">
+                <input type="text" required>
+                <label>Korisničko ime</label>
+            </div>
+
+            <div class="form-control">
+                <input type="password" required>
+                <label>Lozinka</label>
+            </div>
+
+            <button class="btn" id="login_btn">Prijava</button>
+
+            <p class="text">Nemaš račun? <a id="reg" href="#">Registriraj se</a></p>
+        </form>
+    </div>
+
+    <div class="container_register" id="container_register">
+        <h1>Registriraj se</h1>
+        <form>
+            <div class="form-control-reg-ime form-control-regime">
+                <input class="ime" type="text" required>
+                <label id="ime">Ime</label>
+                <input class="prezime" type="text" required>
+                <label id="prezime">Prezime</label>
+            </div>
+
+
+            <div class="form-control-reg form-control-regime">
+                <input type="text" required>
+                <label>E-mail</label>
+            </div>
+
+            <div class="form-control-reg form-control-regime">
+                <input type="password" required>
+                <label>Nova lozinka</label>
+            </div>
+            <div class="form-control-reg form-control-regime">
+                <input type="password" required>
+                <label>Ponovljena lozinka</label>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" required checked id="checkbox">
+                <label>Želim primati novosti o Klubu na e-mail</label>
+            </div>
+
+            <button class="btn" id="register_btn">Registracija</button>
+
+            <p class="text">Već imaš račun? <a id="login" href="#">Prijavi se</a></p>
+        </form>
+    </div>
+    <script src="js/script_prijava.js"></script>
+</body>
+</html>
